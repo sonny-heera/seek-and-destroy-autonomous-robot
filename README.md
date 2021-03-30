@@ -1,0 +1,2 @@
+# Seek and Destroy Autonomous Robot
+Seek and destroy autonomous robot implemented using a Raspberry Pi 3, BrickPi shield, camera, ultrasonic sensors, infrared light sensor, Lego NXT kit, MPU 9250, OpenCV, multiprocessing, and shared variables. The multiprocessing library in Python was used instead of the multithreading library due to Python's global interpreter lock. This allowed us to use all four cores in parallel and have true multithreading. The image recognition system was implemented using the OpenCV computer vision platform and Haar Cascades.
